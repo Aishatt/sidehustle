@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(19, 19, 31);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+h2,
+h4,
+h5 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 25px;
+
+}
+
+.head {
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.link {
+    margin-left: 50%;
+}
+
+li>a {
+
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#btn1 {
+    margin-left: -5%;
+    width: 30%;
+    padding: 3%;
+}
+
+button {
+    outline: none;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(4, 131, 195);
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imgbk {
+    position: relative;
+}
+
+#access {
+    justify-content: center;
+    width: 50%;
+    position: absolute;
+
+    top: 40%;
+    left: 25%;
+    margin: 0px 5%;
+    text-align: center;
+}
+
+.colmn,
+.colmn2 {
+    display: flex;
+    width: 70%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.colmn>div {
+    margin-left: 3%;
+}
+
+#profile {
+    width: 20%;
+    border-radius: 50%;
+}
+
+#quote {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.test {
+    margin: 5%;
+    padding: 3%;
+    background-color: rgba(46, 46, 74, 0.407);
+}
+
+.name  {
+    margin-left: 5%;
+}
+
+#btn2 {
+    width: 100%;
+    padding: 20px;
+    margin-top: 4%;
+
+}
+
+#email {
+    border-radius: 50px;
+    border: none;
+    width: 90%;
+    padding: 20px;
+
+}
+
+#form {
+    margin: 4%;
+}
+
+footer {
+    padding: 5%;
+    display: flex;
+
+    background-color: rgb(29, 29, 47);
+}
+
+.flink {
+    margin: auto;
+}
+
+.flink>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 2% 0px;
+    padding: 10px 0px;
+}
+
+.logof {
+
+    width: 10%;
+    height: 33px;
+    margin-bottom: 5%;
+}
+
+.logo {
+    width: 13%;
+    height: 45px;
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        width: 20%;
+        height: 23px;
+        margin-top: 4%;
+    }
+
+    .link {
+        margin-left: 5%;
+    }
+
+    .art {
+        width: 100%;
+    }
+
+    #artcol {
+        flex-direction: column;
+    }
+
+    #access {
+        width: 30%;
+        margin: auto;
+        top: 40%;
+        left: 35%;
+    }
+
+    .access {
+        width: 90%;
+    }
+
+    .colmn {
+        flex-direction: column;
+        margin-left: -9%;
+
+    }
+
+    .colmn2 {
+        flex-direction: row;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .test {
+        margin: 5% 0px;
+        padding: 5%;
+        width: 95%;
+        text-align: justify;
+    }
+
+    #profile {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    #quote {
+        width: 80%;
+
+    }
+
+    .flink {
+        margin: 2px;
+    }
+
+    .logof {
+
+        width: 20%;
+        height: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
